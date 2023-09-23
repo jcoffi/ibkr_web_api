@@ -10,7 +10,7 @@ This Docker image provides a ready-to-use container for the Interactive Brokers 
 ## To Run
    
 ```shell
-docker run -p 5000:5000 roozich/ibkr-api
+docker run -p 5000:5000 roozich/ibkr_web_api
 ```
 
 ## To Build
@@ -18,12 +18,12 @@ docker run -p 5000:5000 roozich/ibkr-api
 1. **Build the image:**
 
    ```shell
-   docker build -t ibkr-api .
+   docker build -t ibkr_web_api .
    ```
    
 2. **Run the Docker container, mapping the desired port:**
    ```shell
-   docker run -p 5000:5000 ibkr-api
+   docker run -p 5000:5000 ibkr_web_api
    ```
 
 3. **Open https://localhost:5000 to login and check the [API Documentation & Reference Guide](https://interactivebrokers.github.io/cpwebapi/) for usage.**
