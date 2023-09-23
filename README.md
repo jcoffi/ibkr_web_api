@@ -7,15 +7,23 @@ This Docker image provides a ready-to-use container for the Interactive Brokers 
 - Based on Alpine Linux for a lightweight and secure environment.
 - Simplified Dockerfile for easy customization.
 
-## Usage
+## To Run
+   
+```shell
+docker run -p 5000:5000 roozich/ibkr-api
+```
 
-1. **Build the Docker image:**
+## To Build
+
+1. **Build the image:**
 
    ```shell
    docker build -t ibkr-api .
+   ```
    
 2. **Run the Docker container, mapping the desired port:**
    ```shell
    docker run -p 5000:5000 ibkr-api
+   ```
 
 3. **Open https://localhost:5000 to login and check the [API Documentation & Reference Guide](https://interactivebrokers.github.io/cpwebapi/) for usage.**
