@@ -1,4 +1,4 @@
-# Interactive Brokers Client Portal API - Docker Image ( unofficial )
+# Interactive Brokers Client Portal API - Docker Image
 
 This Docker image provides a ready-to-use container for the Interactive Brokers Client Portal API, making it easy to deploy and run the API server.
 
