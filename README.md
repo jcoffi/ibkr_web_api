@@ -16,6 +16,6 @@ This Docker image provides a ready-to-use container for the Interactive Brokers 
    
 2. **Run the Docker container, mapping the desired port:**
    ```shell
-   docker run -d -p 5000:5000 ibkr-api
+   docker run -p 5000:5000 ibkr-api
 
 3. **Open https://localhost:5000 to login and check the [API Documentation & Reference Guide](https://interactivebrokers.github.io/cpwebapi/) for usage.**
