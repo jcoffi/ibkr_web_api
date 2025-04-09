@@ -2,7 +2,7 @@
 
 This Docker image provides a ready-to-use container for the Interactive Brokers Client Portal API, making it easy to deploy and run the API server.
 
-**[Docker Hub](https://hub.docker.com/r/roozich/ibkr_web_api)**
+**[Docker Hub](https://hub.docker.com/r/jcoffi/ibkr_web_api)**
 ## Features
 
 - Based on Alpine Linux for a lightweight and secure environment.
